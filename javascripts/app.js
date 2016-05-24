@@ -68,7 +68,7 @@ var Gauntlet = (function(Gauntlet){
     });
 
     /*
-      When the back button clicked, move back a view
+      When the back button clicked, move back a view.
      */
     $(".card__back").click(function(e) {
       var previousCard = $(this).attr("previous");
